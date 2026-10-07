@@ -1,6 +1,6 @@
-blocked_usernames=["raju","siddu","satwik"]
+blocked=["raju","siddu","satwik"]
 username=input("enter the username:")
-if username not in blocked_usernames:
-    print("valid username")
+if username not in blocked:
+    print("username allowed")
 else:
-    print("invalid username")
+    print("username blocked")
